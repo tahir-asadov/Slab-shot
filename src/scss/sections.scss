@@ -11,6 +11,16 @@
   height: 100%;
 }
 
+/* ==========================================================================
+[Navigation]
+========================================================================== */
+.navigation-section {
+  .row {
+    .container {
+      grid-template-columns: 100px auto 150px;
+    }
+  }
+}
 
 .break-point-indicator, .window-width {
   display: none;
