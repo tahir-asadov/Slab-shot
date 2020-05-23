@@ -8763,7 +8763,8 @@ body {
   font-family: "Lora", serif;
   font-size: 18px;
   line-height: 25px;
-  background: #fdfdfd; }
+  background: #fdfdfd;
+  color: #5c727f; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif; }
@@ -8967,7 +8968,7 @@ textarea {
 
 [type="submit"], [type="button"], button, .button {
   display: inline-block;
-  padding: 15px 40px;
+  padding: 15px 20px;
   margin: 5px 5px 5px 0;
   background-color: #9c69e2;
   color: white;
