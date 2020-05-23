@@ -8787,7 +8787,7 @@ h6 {
   font-size: 15px; }
 
 a {
-  color: #ff5959; }
+  color: #9c69e2; }
 
 img {
   max-width: 100%; }
@@ -8969,7 +8969,7 @@ textarea {
   display: inline-block;
   padding: 15px 40px;
   margin: 5px 5px 5px 0;
-  background-color: #ff5959;
+  background-color: #9c69e2;
   color: white;
   border-radius: 50px;
   border: none;
@@ -8979,7 +8979,7 @@ textarea {
   font-weight: bold; }
   [type="submit"].secondary, [type="button"].secondary, button.secondary, .button.secondary {
     color: white;
-    background-color: #085f63; }
+    background-color: #f063b8; }
   [type="submit"].circle, [type="button"].circle, button.circle, .button.circle {
     padding: 15px 15px; }
 
@@ -8998,7 +8998,7 @@ textarea {
     text-decoration: none;
     text-align: center; }
     .dropdown-menu a:hover {
-      background: #ff5959;
+      background: #9c69e2;
       color: #ffffff; }
     .dropdown-menu a i {
       margin-right: 5px; }
@@ -9050,11 +9050,11 @@ textarea {
 ========================================================================== */
 ::-moz-selection {
   color: white;
-  background: #085f63; }
+  background: #f063b8; }
 
 ::selection {
   color: white;
-  background: #085f63; }
+  background: #f063b8; }
 
 /* Font families */
 /* Gaps and margins */
@@ -9110,7 +9110,7 @@ textarea {
         font-size: 20px;
         color: #333333; }
         .footer-section .row .container .social-links ul li a:hover {
-          color: #ff5959; }
+          color: #9c69e2; }
 
 .break-point-indicator, .window-width {
   display: none; }
