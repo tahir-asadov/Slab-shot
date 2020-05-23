@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 302 232" width="302" height="232">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-964 -2301L636 -2301L636 2199L-964 2199Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-width: 1.5 } 
+	</style>
+	<g id="desktop-Datawarehouse" clip-path="url(#cp1)">
+		<g id="03">
+			<g id="4">
+				<path id="Vector 56" fill-rule="evenodd" class="shp0" d="M25.96 101.69C-15.43 175.79 -0.81 239.92 59.73 227.71C135.39 212.45 121.01 120.99 208.25 106.39C295.49 91.8 313.68 58.46 291.04 30.66C268.41 2.86 119.95 -38.88 25.96 101.69Z" />
+			</g>
+		</g>
+	</g>
+</svg>

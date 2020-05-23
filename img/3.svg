@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67 53" width="67" height="53">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-674 -2311L926 -2311L926 2189L-674 2189Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-width: 1.5 } 
+	</style>
+	<g id="desktop-Datawarehouse" clip-path="url(#cp1)">
+		<g id="03">
+			<g id="3">
+				<path id="Ellipse 61" class="shp0" d="M23.75 9.01C40.05 -0.39 57.72 -0.22 63.28 9.41C68.83 19.04 60.16 34.43 43.86 43.84C27.56 53.25 9.9 53.07 4.34 43.44C-1.22 33.81 7.46 18.42 23.75 9.01Z" />
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434 358" width="434" height="358">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-337 -2281L1263 -2281L1263 2219L-337 2219Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.102;fill: #f063b8 } 
+	</style>
+	<g id="desktop-Datawarehouse" clip-path="url(#cp1)">
+		<g id="03">
+			<g id="3">
+				<path id="Rectangle 39" fill-rule="evenodd" class="shp0" d="M44.29 41.74C48.33 17.65 69.18 0 93.6 0L383.28 0C410.9 0 433.28 22.39 433.28 50L433.28 308C433.28 335.61 410.9 358 383.28 358L50.36 358C19.45 358 -4.06 330.23 1.05 299.74L44.29 41.74Z" />
+			</g>
+		</g>
+	</g>
+</svg>
