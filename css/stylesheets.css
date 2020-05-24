@@ -9076,8 +9076,21 @@ textarea {
 /* ==========================================================================
 [Navigation]
 ========================================================================== */
-.navigation-section .row .container {
-  grid-template-columns: 100px auto 150px; }
+.navigation-section {
+  margin-top: 50px; }
+  .navigation-section .row .container {
+    grid-template-columns: 100px auto 180px; }
+    .navigation-section .row .container .logo {
+      display: flex;
+      align-items: center; }
+    .navigation-section .row .container .navigation {
+      display: flex;
+      align-items: center; }
+      .navigation-section .row .container .navigation a {
+        padding: 0 15px;
+        margin: 0 0px; }
+    .navigation-section .row .container .request-demo .button {
+      margin: 0; }
 
 .break-point-indicator, .window-width {
   display: none; }

@@ -15,9 +15,27 @@
 [Navigation]
 ========================================================================== */
 .navigation-section {
+  margin-top: 50px;
   .row {
     .container {
-      grid-template-columns: 100px auto 150px;
+      grid-template-columns: 100px auto 180px;
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      .navigation {
+        display: flex;
+        align-items: center;
+        a {
+          padding:0 15px;
+          margin:0 0px;
+        }
+      }
+      .request-demo {
+        .button {
+          margin: 0;
+        }
+      }
     }
   }
 }
