@@ -183,7 +183,7 @@ textarea {
 }
 [type="submit"], [type="button"], button, .button {
   display: inline-block;
-  padding: 22px 30px;
+  padding: 17px 30px;
   margin: 5px 5px 5px 0;
   background-color: $primary_color;
   color: white;
@@ -200,7 +200,7 @@ textarea {
     font-size: 16px;
     color: $deep_purple;
     background: white;
-    box-shadow: -2px 5px 8px -4px #4a5c67;
+    box-shadow: 0 5px 5px 0px #d9d9d9;
   }
 }
 
