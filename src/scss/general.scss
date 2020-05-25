@@ -19,9 +19,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-size: 65px;
+  color: $deep_purple;
+  line-height: 70px;
 }
 h2 {
-  font-size: 55px;
+  font-size: 40px;
+  color: $deep_purple;
 }
 h3 {
   font-size: 45px;
@@ -38,6 +41,9 @@ h6 {
 a {
   color: $body_text_color;
   text-decoration: none;
+}
+p {
+  line-height: 35px;
 }
 img {
   max-width: 100%;
