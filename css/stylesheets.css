@@ -9138,6 +9138,40 @@ textarea {
   .whoweare-section .container .whoweare-offset p {
     width: 70%; }
 
+/* ==========================================================================
+[Features]
+========================================================================== */
+.features-section .row.row-top .container h2, .features-section .row.row-top .container p {
+  text-align: center; }
+
+.features-section .row.row-top .container p {
+  text-align: center;
+  width: 50%;
+  margin: auto; }
+
+.features-section .row.row-middle .feature-list {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px; }
+  .features-section .row.row-middle .feature-list .feature-item {
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    padding: 25px;
+    display: flex;
+    align-items: center; }
+    .features-section .row.row-middle .feature-list .feature-item .feature-item-data {
+      flex: 1; }
+    .features-section .row.row-middle .feature-list .feature-item .feature-item-img {
+      flex: 1.2; }
+  .features-section .row.row-middle .feature-list .feature-item-1 {
+    background-image: url(/img/rec1.svg); }
+  .features-section .row.row-middle .feature-list .feature-item-2 {
+    background-image: url(/img/rec2.svg); }
+  .features-section .row.row-middle .feature-list .feature-item-3 {
+    background-image: url(/img/rec3.svg); }
+  .features-section .row.row-middle .feature-list .feature-item-4 {
+    background-image: url(/img/rec4.svg); }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .break-point-indicator {
@@ -9172,8 +9206,6 @@ textarea {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .base-grid {
-    grid-template-rows: 115px auto 115px; }
   .navigation-section .row-top .container {
     grid-template-columns: 200px auto; }
   .content-section .row .container {
