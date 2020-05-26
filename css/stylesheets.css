@@ -9262,6 +9262,49 @@ textarea {
     .try-section .row .container .try-right {
       text-align: right; }
 
+/* ==========================================================================
+[Footer]
+========================================================================== */
+.footer-section .row .container {
+  grid-template-columns: 2fr 1fr 1fr 1fr; }
+  .footer-section .row .container .footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .footer-section .row .container .footer-menu ul li a {
+      color: #212353;
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 10px 0; }
+  .footer-section .row .container .footer-info .footer-logo {
+    display: flex;
+    color: #212353;
+    font-size: 20px; }
+    .footer-section .row .container .footer-info .footer-logo img {
+      margin-right: 10px; }
+  .footer-section .row .container .footer-info p {
+    color: #212353;
+    line-height: 25px;
+    margin-bottom: 30px; }
+  .footer-section .row .container .footer-social ul li a {
+    display: inline-block;
+    background: #e8e9ed;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    margin-right: 7px;
+    transition: all 500ms; }
+    .footer-section .row .container .footer-social ul li a i {
+      color: white; }
+    .footer-section .row .container .footer-social ul li a:hover {
+      background: #f063b8; }
+  .footer-section .row .container .footer-social p {
+    color: #212353;
+    line-height: 25px;
+    margin-bottom: 30px; }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .break-point-indicator {
@@ -9296,16 +9339,6 @@ textarea {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .navigation-section .row-top .container {
-    grid-template-columns: 200px auto; }
-  .content-section .row .container {
-    grid-template-columns: 300px auto; }
-  .footer-section .row .container {
-    grid-template-columns: 1fr 1fr; }
-    .footer-section .row .container .cell {
-      justify-content: left; }
-      .footer-section .row .container .cell.footer-right {
-        justify-content: flex-end; }
   .break-point-indicator {
     background: red; }
     .break-point-indicator::after {
