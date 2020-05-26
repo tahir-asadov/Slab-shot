@@ -21,5 +21,14 @@ $(document).ready(function() {
   $( window ).on( 'load', function(){
     window_resize();
   });
+
+  $( '.pagination .dot' ).click( function() {
+    $( this ).addClass( 'active' ).siblings().removeClass( 'active' );
+    
+    var index = $(this).index();
+
+    $( '.slider-container' ).css( 'margin-left', ( ( index ) * -25 + 25 ) + '%'  );
+
+  } );
   
 });

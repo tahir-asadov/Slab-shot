@@ -8785,9 +8785,11 @@ h4 {
   font-size: 35px; }
 
 h5 {
+  color: #212353;
   font-size: 25px; }
 
 h6 {
+  color: #212353;
   font-size: 15px; }
 
 a {
@@ -9178,7 +9180,29 @@ textarea {
 .testimonials-section .row .container {
   padding: 100px;
   background: #A06BDC;
-  height: 600px; }
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 60px; }
+  .testimonials-section .row .container .pagination {
+    position: relative;
+    z-index: 1;
+    width: 230px;
+    display: flex;
+    align-items: center; }
+    .testimonials-section .row .container .pagination .dot {
+      width: 5px;
+      height: 5px;
+      background: white;
+      margin-right: 15px;
+      border-radius: 50%;
+      transition: all 500ms;
+      cursor: pointer; }
+      .testimonials-section .row .container .pagination .dot.active {
+        width: 10px;
+        height: 10px;
+        background: #f063b8; }
 
 .testimonials-section .row-slider {
   position: absolute;
@@ -9190,15 +9214,22 @@ textarea {
     margin-left: 25%;
     height: 450px;
     box-sizing: content-box;
-    display: flex; }
+    display: flex;
+    transition: margin 500ms; }
     .testimonials-section .row-slider .slider-container .slide {
       height: 350px;
-      width: 500px;
+      width: 630px;
+      padding: 50px 120px;
       background: white;
       margin-right: 20px;
       border-radius: 20px;
       box-shadow: 0px 15px 0 0px rgba(126, 72, 200, 0.3);
       border: #A06BDC solid 1px; }
+      .testimonials-section .row-slider .slider-container .slide h6 {
+        font-weight: normal;
+        margin: 5px 0; }
+      .testimonials-section .row-slider .slider-container .slide a {
+        color: #212353; }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
