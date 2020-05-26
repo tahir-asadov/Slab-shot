@@ -211,6 +211,11 @@ textarea {
     color: $deep_purple;
     background: white;
     box-shadow: 0 5px 5px 0px #d9d9d9;
+    &:active {
+      box-shadow: 0 0 5px 0px #d9d9d9;
+      background-color: $secondary_color;
+      color: white;
+    }
   }
 }
 

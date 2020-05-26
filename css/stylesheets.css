@@ -8996,6 +8996,10 @@ textarea {
     color: #212353;
     background: white;
     box-shadow: 0 5px 5px 0px #d9d9d9; }
+    [type="submit"].outline:active, [type="button"].outline:active, button.outline:active, .button.outline:active {
+      box-shadow: 0 0 5px 0px #d9d9d9;
+      background-color: #f063b8;
+      color: white; }
 
 .dropdown-menu {
   position: relative;
