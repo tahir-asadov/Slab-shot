@@ -232,3 +232,28 @@
     }
   }
 }
+
+/* ==========================================================================
+[Try For Free]
+========================================================================== */
+.try-section {
+  border-top: #ccc solid 1px;
+  padding: 100px 0;
+  margin-top: 100px;
+  .row {
+    .container {
+      grid-template-columns: 1fr 1fr;
+      .try-left {
+        h2 {
+          margin: 0;
+        }
+        p {
+          margin-top: 50px;
+        }
+      }
+      .try-right {
+        text-align: right;
+      }
+    }
+  }
+}

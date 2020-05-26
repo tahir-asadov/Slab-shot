@@ -8776,7 +8776,8 @@ h1 {
 
 h2 {
   font-size: 40px;
-  color: #212353; }
+  color: #212353;
+  font-weight: normal; }
 
 h3 {
   font-size: 45px; }
@@ -9244,6 +9245,22 @@ textarea {
         margin: 5px 0; }
       .testimonials-section .row-slider .slider-container .slide a {
         color: #212353; }
+
+/* ==========================================================================
+[Try For Free]
+========================================================================== */
+.try-section {
+  border-top: #ccc solid 1px;
+  padding: 100px 0;
+  margin-top: 100px; }
+  .try-section .row .container {
+    grid-template-columns: 1fr 1fr; }
+    .try-section .row .container .try-left h2 {
+      margin: 0; }
+    .try-section .row .container .try-left p {
+      margin-top: 50px; }
+    .try-section .row .container .try-right {
+      text-align: right; }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
