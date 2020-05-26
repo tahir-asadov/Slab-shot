@@ -9305,6 +9305,23 @@ textarea {
     line-height: 25px;
     margin-bottom: 30px; }
 
+/* ==========================================================================
+[Bottom]
+========================================================================== */
+.bottom-section .row .container {
+  grid-template-columns: 1fr 1fr; }
+  .bottom-section .row .container > * {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+  .bottom-section .row .container .bottom-left {
+    justify-content: flex-start; }
+    .bottom-section .row .container .bottom-left h6 {
+      font-size: 12px;
+      font-weight: normal; }
+  .bottom-section .row .container .bottom-right {
+    text-align: right; }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .break-point-indicator {

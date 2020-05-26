@@ -326,3 +326,29 @@
     }
   }
 }
+
+/* ==========================================================================
+[Bottom]
+========================================================================== */
+.bottom-section {
+  .row {
+    .container {
+      grid-template-columns: 1fr 1fr;
+      & > * {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .bottom-left {
+        justify-content: flex-start;
+        h6 {
+          font-size: 12px;
+          font-weight: normal;
+        }
+      }
+      .bottom-right {
+        text-align: right;
+      }
+    }
+  }
+}
