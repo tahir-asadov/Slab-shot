@@ -11956,6 +11956,9 @@ $(document).ready(function () {
     var index = $(this).index();
     $('.slider-container').css('margin-left', index * -25 + 25 + '%');
   });
+  $('.mobile-menu-button').click(function () {
+    $('.mobile-menu').toggleClass('active');
+  });
 });
 /*
      _ _      _       _

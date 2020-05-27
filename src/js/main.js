@@ -30,5 +30,9 @@ $(document).ready(function() {
     $( '.slider-container' ).css( 'margin-left', ( ( index ) * -25 + 25 ) + '%'  );
 
   } );
+
+  $( '.mobile-menu-button' ).click( function(){
+    $( '.mobile-menu' ).toggleClass( 'active' );
+  } );
   
 });
