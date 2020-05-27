@@ -70,6 +70,49 @@
       content: "min:992px";
     }
   }
+  
+  .navigation-section {
+    .row {
+      .container {
+        grid-template-columns: 100px auto 180px;
+      }
+    }
+  }
+  .whoweare-section {
+    .container {
+      .whoweare-offset {
+        grid-template-columns: 1fr 2fr;
+      }
+    }
+  }
+  .features-section {
+    .row.row-middle {
+      .feature-list {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  .try-section {
+    .row {
+      .container {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  .footer-section {
+    .row {
+      .container {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+      }
+    }
+  }
+  .bottom-section {
+    .row {
+      .container {
+        // grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
 
 }
 

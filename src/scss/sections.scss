@@ -18,7 +18,7 @@
   margin-top: 50px;
   .row {
     .container {
-      grid-template-columns: 100px auto 180px;
+      grid-template-columns: auto;
       .logo {
         display: flex;
         align-items: center;
@@ -83,7 +83,7 @@
   .container {
     .whoweare-offset {
       padding: 100px 70px;
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr;
       grid-gap: 70px;
       background: #FFE8F3;
       border-radius: 60px;
@@ -113,7 +113,7 @@
   }
   .row.row-middle {
     .feature-list {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       grid-gap: 30px;
       .feature-item {
         background-repeat: no-repeat;
@@ -247,7 +247,7 @@
   margin-top: 100px;
   .row {
     .container {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       .try-left {
         h2 {
           margin: 0;
@@ -269,7 +269,7 @@
 .footer-section {
   .row {
     .container {
-      grid-template-columns: 2fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
       .footer-menu {
         ul {
           margin: 0;
@@ -338,7 +338,7 @@
 .bottom-section {
   .row {
     .container {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       & > * {
         display: flex;
         justify-content: flex-end;

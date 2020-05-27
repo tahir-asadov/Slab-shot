@@ -9093,7 +9093,7 @@ textarea {
 .navigation-section {
   margin-top: 50px; }
   .navigation-section .row .container {
-    grid-template-columns: 100px auto 180px; }
+    grid-template-columns: auto; }
     .navigation-section .row .container .logo {
       display: flex;
       align-items: center; }
@@ -9138,7 +9138,7 @@ textarea {
 ========================================================================== */
 .whoweare-section .container .whoweare-offset {
   padding: 100px 70px;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   grid-gap: 70px;
   background: #FFE8F3;
   border-radius: 60px; }
@@ -9157,7 +9157,7 @@ textarea {
     width: 50%;
     margin: auto; }
   .features-section .row.row-middle .feature-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 30px; }
     .features-section .row.row-middle .feature-list .feature-item {
       background-repeat: no-repeat;
@@ -9261,7 +9261,7 @@ textarea {
   padding: 100px 0;
   margin-top: 100px; }
   .try-section .row .container {
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr; }
     .try-section .row .container .try-left h2 {
       margin: 0; }
     .try-section .row .container .try-left p {
@@ -9273,7 +9273,7 @@ textarea {
 [Footer]
 ========================================================================== */
 .footer-section .row .container {
-  grid-template-columns: 2fr 1fr 1fr 1fr; }
+  grid-template-columns: 1fr; }
   .footer-section .row .container .footer-menu ul {
     margin: 0;
     padding: 0;
@@ -9316,7 +9316,7 @@ textarea {
 [Bottom]
 ========================================================================== */
 .bottom-section .row .container {
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr; }
   .bottom-section .row .container > * {
     display: flex;
     justify-content: flex-end;
@@ -9429,7 +9429,17 @@ textarea {
   .break-point-indicator {
     background: red; }
     .break-point-indicator::after {
-      content: "min:992px"; } }
+      content: "min:992px"; }
+  .navigation-section .row .container {
+    grid-template-columns: 100px auto 180px; }
+  .whoweare-section .container .whoweare-offset {
+    grid-template-columns: 1fr 2fr; }
+  .features-section .row.row-middle .feature-list {
+    grid-template-columns: 1fr 1fr; }
+  .try-section .row .container {
+    grid-template-columns: 1fr 1fr; }
+  .footer-section .row .container {
+    grid-template-columns: 2fr 1fr 1fr 1fr; } }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
