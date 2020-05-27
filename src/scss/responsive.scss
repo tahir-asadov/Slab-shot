@@ -33,6 +33,14 @@
       margin: 0.25%
     }
   }
+
+  .features-section {
+    .row.row-middle {
+      .feature-list {
+        grid-template-columns: repeat(auto-fit,minmax(555px, 555px));
+      }
+    }
+  }
   
 }
 
@@ -70,6 +78,89 @@
       content: "min:992px";
     }
   }
+
+
+  /* ==========================================================================
+  [Style changes]
+  ========================================================================== */
+  .navigation-section {
+    .row {
+      .container {
+        .logo {
+          justify-content: flex-start;
+        }
+        .navigation {
+          justify-content: flex-start;
+        }
+        .request-demo {
+          text-align: left;
+        }
+      }
+    }
+  }
+  .whoweare-section {
+    .container {
+      text-align: left;
+      .whoweare-offset {
+        padding: 100px 70px;
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+        background: #FFE8F3;
+        border-radius: 60px;
+        p {
+          width: 70%;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .try-section {
+    .row {
+      .container {
+        .try-left {
+          text-align: left;
+        }
+        .try-right {
+          text-align: right;
+        }
+      }
+    }
+  }
+  .footer-section {
+    .row {
+      .container {
+        text-align: left;
+        .footer-info {
+          .footer-logo {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+  .bottom-section {
+    .row {
+      .container {
+        grid-template-columns: 1fr;
+        & > * {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        }
+        .bottom-left {
+          justify-content: flex-start;
+          h6 {
+            margin-left: 0;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+  
+  /* ==========================================================================
+  [Layout changes]
+  ========================================================================== */
   
   .navigation-section {
     .row {
@@ -109,7 +200,7 @@
   .bottom-section {
     .row {
       .container {
-        // grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
       }
     }
   }

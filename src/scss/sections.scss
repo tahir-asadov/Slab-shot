@@ -22,16 +22,19 @@
       .logo {
         display: flex;
         align-items: center;
+        justify-content: center;
       }
       .navigation {
         display: flex;
         align-items: center;
+        justify-content: center;
         a {
           padding:0 15px;
           margin:0 0px;
         }
       }
       .request-demo {
+        text-align: center;
         .button {
           margin: 0;
         }
@@ -81,6 +84,7 @@
 ========================================================================== */
 .whoweare-section {
   .container {
+    text-align: center;
     .whoweare-offset {
       padding: 100px 70px;
       grid-template-columns: 1fr;
@@ -88,7 +92,8 @@
       background: #FFE8F3;
       border-radius: 60px;
       p {
-        width: 70%;
+        width: 100%;
+        margin: auto;
       }
     }
   }
@@ -249,6 +254,7 @@
     .container {
       grid-template-columns: 1fr;
       .try-left {
+        text-align: center;
         h2 {
           margin: 0;
         }
@@ -257,7 +263,7 @@
         }
       }
       .try-right {
-        text-align: right;
+        text-align: center;
       }
     }
   }
@@ -269,6 +275,7 @@
 .footer-section {
   .row {
     .container {
+      text-align: center;
       grid-template-columns: 1fr;
       .footer-menu {
         ul {
@@ -286,8 +293,8 @@
         }
       }
       .footer-info {
+        justify-content: center;
         .footer-logo {
-          display: flex;
           color: $deep_purple;
           font-size: 20px;
           img {
@@ -341,7 +348,7 @@
       grid-template-columns: 1fr;
       & > * {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
       }
       .bottom-left {
@@ -349,10 +356,8 @@
         h6 {
           font-size: 12px;
           font-weight: normal;
+          margin: auto;
         }
-      }
-      .bottom-right {
-        text-align: right;
       }
     }
   }
