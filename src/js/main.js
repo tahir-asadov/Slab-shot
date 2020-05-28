@@ -15,14 +15,6 @@ $(document).ready(function() {
     $( '.pagination .dot' ).eq( 0 ).click();
   }
 
-  $( window ).resize( function(){
-    window_resize();
-  } );
-
-  $( window ).on( 'load', function(){
-    window_resize();
-  });
-
   $( '.pagination .dot' ).click( function() {
     $( this ).addClass( 'active' ).siblings().removeClass( 'active' );
     
@@ -46,4 +38,19 @@ $(document).ready(function() {
     $( '.mobile-menu' ).toggleClass( 'active' );
   } );
   
+
+  $( window ).resize( function(){
+    window_resize();
+  } );
+
+  $( window ).on( 'load', function(){
+    window_resize();
+  });
+
+  $( document ).on( 'load', function(){
+    window_resize();
+  });
+  
+  window_resize();
+
 });

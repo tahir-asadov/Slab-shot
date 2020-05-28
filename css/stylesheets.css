@@ -9227,17 +9227,13 @@ textarea {
           content: "";
           display: block;
           position: absolute;
-          top: 0;
-          left: 0;
-          width: 40px;
-          height: 40px;
+          top: 10px;
+          left: 10px;
+          width: 20px;
+          height: 20px;
           background: white; }
         .testimonials-section .row-top .container .pagination .dot.active::after {
-          transition: width 500ms, height 500ms;
-          top: 0;
-          left: 0;
-          width: 40px;
-          height: 40px;
+          transition: all 500ms;
           background: #f063b8; }
   .testimonials-section .row-slider {
     position: absolute;
@@ -9393,7 +9389,8 @@ textarea {
   text-align: center;
   line-height: 60px;
   border-radius: 50%;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 3; }
 
 .mobile-menu {
   text-align: center; }
@@ -9406,7 +9403,8 @@ textarea {
     margin: auto;
     border-radius: 0;
     bottom: 0;
-    transform-origin: center bottom; }
+    transform-origin: center bottom;
+    z-index: 2; }
   .mobile-menu .mobile-menu-logo {
     position: absolute;
     top: 80px;

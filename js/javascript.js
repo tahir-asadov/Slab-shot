@@ -11946,12 +11946,6 @@ $(document).ready(function () {
     $('.pagination .dot').eq(0).click();
   }
 
-  $(window).resize(function () {
-    window_resize();
-  });
-  $(window).on('load', function () {
-    window_resize();
-  });
   $('.pagination .dot').click(function () {
     $(this).addClass('active').siblings().removeClass('active');
     var index = $(this).index();
@@ -11968,6 +11962,16 @@ $(document).ready(function () {
   $('.mobile-menu-button').click(function () {
     $('.mobile-menu').toggleClass('active');
   });
+  $(window).resize(function () {
+    window_resize();
+  });
+  $(window).on('load', function () {
+    window_resize();
+  });
+  $(document).on('load', function () {
+    window_resize();
+  });
+  window_resize();
 });
 /*
      _ _      _       _
