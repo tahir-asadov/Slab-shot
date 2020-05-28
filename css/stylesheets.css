@@ -9245,7 +9245,7 @@ textarea {
     top: 200px;
     overflow: hidden; }
     .testimonials-section .row-slider .slider-container {
-      width: 200%;
+      width: 300%;
       height: 450px;
       box-sizing: content-box;
       display: flex;
@@ -9434,7 +9434,12 @@ textarea {
     flex: 1 0 49.5%;
     margin: 0.25%; }
   .features-section .row.row-middle .feature-list {
-    grid-template-columns: repeat(auto-fit, minmax(555px, 555px)); } }
+    grid-template-columns: repeat(auto-fit, minmax(555px, 555px)); }
+  .testimonials-section .row-slider .slider-container {
+    width: 200%; }
+    .testimonials-section .row-slider .slider-container .slide {
+      width: 630px;
+      padding: 30px; } }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
