@@ -9098,20 +9098,18 @@ textarea {
 .navigation-section {
   margin-top: 50px; }
   .navigation-section .row .container {
-    grid-template-columns: auto; }
+    grid-template-columns: 1fr 1fr; }
     .navigation-section .row .container .logo {
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: flex-start; }
     .navigation-section .row .container .navigation {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
+      display: none; }
       .navigation-section .row .container .navigation a {
         padding: 0 15px;
         margin: 0 0px; }
     .navigation-section .row .container .request-demo {
-      text-align: center; }
+      text-align: right; }
       .navigation-section .row .container .request-demo .button {
         margin: 0; }
 
@@ -9397,16 +9395,22 @@ textarea {
   border-radius: 50%;
   cursor: pointer; }
 
-.mobile-menu.active {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  border-radius: 0;
-  bottom: 0;
-  transform-origin: center bottom; }
+.mobile-menu {
+  text-align: center; }
+  .mobile-menu.active {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0;
+    bottom: 0;
+    transform-origin: center bottom; }
+  .mobile-menu .mobile-menu-logo {
+    position: absolute;
+    top: 80px;
+    margin: auto; }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -9471,9 +9475,9 @@ textarea {
   .navigation-section .row .container .logo {
     justify-content: flex-start; }
   .navigation-section .row .container .navigation {
+    display: flex;
+    align-items: center;
     justify-content: flex-start; }
-  .navigation-section .row .container .request-demo {
-    text-align: left; }
   .whoweare-section .container {
     text-align: left; }
     .whoweare-section .container .whoweare-offset {
@@ -9504,6 +9508,13 @@ textarea {
       .bottom-section .row .container .bottom-left h6 {
         margin-left: 0;
         margin-right: 0; }
+  .mobile-menu-button {
+    display: none; }
+  .mobile-menu {
+    display: none; }
+    .mobile-menu.active {
+      display: block;
+      display: none; }
   /* ==========================================================================
   [Layout changes]
   ========================================================================== */

@@ -114,10 +114,12 @@
           justify-content: flex-start;
         }
         .navigation {
+          display: flex;
+          align-items: center;
           justify-content: flex-start;
         }
         .request-demo {
-          text-align: left;
+          // text-align: left;
         }
       }
     }
@@ -179,6 +181,16 @@
           }
         }
       }
+    }
+  }
+  .mobile-menu-button {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+    &.active {
+      display: block;
+      display: none;
     }
   }
   
