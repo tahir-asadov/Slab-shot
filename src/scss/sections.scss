@@ -158,9 +158,9 @@
 ========================================================================== */
 .testimonials-section {
   margin-top: 50px;
-  .row {
+  .row-top {
     .container {
-      padding: 100px;
+      padding: 80px;
       background: #A06BDC;
       height: 660px;
       display: flex;
@@ -172,41 +172,46 @@
         color: white;
       }
       .pagination {
+        top: 30px;
         position: relative;
         z-index: 1;
-        width: 230px;
+        width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
         .dot {
           position: relative;
-          width: 16px;
-          height: 16px;
-          margin-right: 5px;
+          width: 40px;
+          height: 40px;
+          margin-right: 20px;
           border-radius: 50%;
-          transition: all 500ms;
+          transition: all 1500ms;
           cursor: pointer;
-          &.active::after {
-            transition: width 500ms, height 500ms;
-            top: 3px;
-            left: 3px;
-            width: 10px;
-            height: 10px;
-            background: $secondary_color;
-          }
-
           &::after {
             border-radius: 50%;
             content: "";
             display: block;
             position: absolute;
-            top: 5px;
-            left: 5px;
-            width: 6px;
-            height: 6px;
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
             background: white;
+          }
+          &.active::after {
+            transition: width 500ms, height 500ms;
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            background: $secondary_color;
           }
         }
       }
+    }
+  }
+  .row {
+    .container {
     }
   }
   .row-slider {
@@ -215,16 +220,14 @@
     top: 200px;
     overflow: hidden;
     .slider-container {
-      width: 175%;
-      margin-left: 25%;
+      width: 200%;
       height: 450px;
       box-sizing: content-box;
       display: flex;
       transition: margin 500ms;
       .slide {
         height: 350px;
-        width: 630px;
-        padding: 50px 120px;
+        padding: 20px;
         background: white;
         margin-right: 20px;
         border-radius: 20px;

@@ -9195,8 +9195,8 @@ textarea {
 ========================================================================== */
 .testimonials-section {
   margin-top: 50px; }
-  .testimonials-section .row .container {
-    padding: 100px;
+  .testimonials-section .row-top .container {
+    padding: 80px;
     background: #A06BDC;
     height: 660px;
     display: flex;
@@ -9204,55 +9204,55 @@ textarea {
     justify-content: space-between;
     padding-bottom: 60px;
     border-radius: 60px; }
-    .testimonials-section .row .container h2 {
+    .testimonials-section .row-top .container h2 {
       color: white; }
-    .testimonials-section .row .container .pagination {
+    .testimonials-section .row-top .container .pagination {
+      top: 30px;
       position: relative;
       z-index: 1;
-      width: 230px;
+      width: 100%;
       display: flex;
-      align-items: center; }
-      .testimonials-section .row .container .pagination .dot {
+      align-items: center;
+      justify-content: center; }
+      .testimonials-section .row-top .container .pagination .dot {
         position: relative;
-        width: 16px;
-        height: 16px;
-        margin-right: 5px;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
         border-radius: 50%;
-        transition: all 500ms;
+        transition: all 1500ms;
         cursor: pointer; }
-        .testimonials-section .row .container .pagination .dot.active::after {
-          transition: width 500ms, height 500ms;
-          top: 3px;
-          left: 3px;
-          width: 10px;
-          height: 10px;
-          background: #f063b8; }
-        .testimonials-section .row .container .pagination .dot::after {
+        .testimonials-section .row-top .container .pagination .dot::after {
           border-radius: 50%;
           content: "";
           display: block;
           position: absolute;
-          top: 5px;
-          left: 5px;
-          width: 6px;
-          height: 6px;
+          top: 0;
+          left: 0;
+          width: 40px;
+          height: 40px;
           background: white; }
+        .testimonials-section .row-top .container .pagination .dot.active::after {
+          transition: width 500ms, height 500ms;
+          top: 0;
+          left: 0;
+          width: 40px;
+          height: 40px;
+          background: #f063b8; }
   .testimonials-section .row-slider {
     position: absolute;
     width: 100%;
     top: 200px;
     overflow: hidden; }
     .testimonials-section .row-slider .slider-container {
-      width: 175%;
-      margin-left: 25%;
+      width: 200%;
       height: 450px;
       box-sizing: content-box;
       display: flex;
       transition: margin 500ms; }
       .testimonials-section .row-slider .slider-container .slide {
         height: 350px;
-        width: 630px;
-        padding: 50px 120px;
+        padding: 20px;
         background: white;
         margin-right: 20px;
         border-radius: 20px;
@@ -9444,7 +9444,34 @@ textarea {
       content: "min:768px"; }
   .flex.columns-4 > * {
     flex: 1 0 24%;
-    margin: 0.25%; } }
+    margin: 0.25%; }
+  .testimonials-section .row-top .container {
+    padding: 100px; }
+    .testimonials-section .row-top .container .pagination {
+      top: 30px;
+      width: 230px;
+      justify-content: flex-start; }
+      .testimonials-section .row-top .container .pagination .dot {
+        position: relative;
+        width: 16px;
+        height: 16px; }
+        .testimonials-section .row-top .container .pagination .dot::after {
+          top: 5px;
+          left: 5px;
+          width: 6px;
+          height: 6px; }
+        .testimonials-section .row-top .container .pagination .dot.active::after {
+          transition: width 500ms, height 500ms;
+          top: 3px;
+          left: 3px;
+          width: 10px;
+          height: 10px;
+          background: #f063b8; }
+  .testimonials-section .row-slider .slider-container {
+    width: 175%; }
+    .testimonials-section .row-slider .slider-container .slide {
+      width: 630px;
+      padding: 30px; } }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -9515,6 +9542,11 @@ textarea {
     .mobile-menu.active {
       display: block;
       display: none; }
+  .testimonials-section .row-slider .slider-container {
+    width: 175%; }
+    .testimonials-section .row-slider .slider-container .slide {
+      width: 630px;
+      padding: 50px 90px; }
   /* ==========================================================================
   [Layout changes]
   ========================================================================== */
