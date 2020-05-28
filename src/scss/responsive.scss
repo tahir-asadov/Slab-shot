@@ -83,6 +83,30 @@
   /* ==========================================================================
   [Style changes]
   ========================================================================== */
+  .header-section {
+    .container {
+      text-align: right;
+      .header-title {
+        position: absolute;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        text-align: left;
+        .header-info {
+          margin: 0;
+        }
+        h1 {
+          margin-top: 100px 0 40px 0;
+          font-size: 65px;
+          line-height: 70px;
+        }
+      }
+      img {
+        margin-top: 100px;
+      }
+    }
+  }
   .navigation-section {
     .row {
       .container {
