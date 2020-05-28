@@ -9160,12 +9160,14 @@ textarea {
 ========================================================================== */
 .features-section {
   margin-top: 50px; }
-  .features-section .row.row-top .container h2, .features-section .row.row-top .container p {
-    text-align: center; }
-  .features-section .row.row-top .container p {
-    text-align: center;
-    width: 50%;
-    margin: auto; }
+  .features-section .row.row-top {
+    margin-bottom: 50px; }
+    .features-section .row.row-top .container h2, .features-section .row.row-top .container p {
+      text-align: center; }
+    .features-section .row.row-top .container p {
+      text-align: center;
+      width: 50%;
+      margin: auto; }
   .features-section .row.row-middle .feature-list {
     grid-template-columns: 1fr;
     justify-content: center;
@@ -9326,18 +9328,21 @@ textarea {
 /* ==========================================================================
 [Bottom]
 ========================================================================== */
-.bottom-section .row .container {
-  grid-template-columns: 1fr; }
-  .bottom-section .row .container > * {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .bottom-section .row .container .bottom-left {
-    justify-content: flex-start; }
-    .bottom-section .row .container .bottom-left h6 {
-      font-size: 12px;
-      font-weight: normal;
-      margin: auto; }
+.bottom-section {
+  padding: 50px 0;
+  padding-bottom: 100px; }
+  .bottom-section .row .container {
+    grid-template-columns: 1fr; }
+    .bottom-section .row .container > * {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .bottom-section .row .container .bottom-left {
+      justify-content: flex-start; }
+      .bottom-section .row .container .bottom-left h6 {
+        font-size: 12px;
+        font-weight: normal;
+        margin: auto; }
 
 /* ==========================================================================
 [Mobile menu]
